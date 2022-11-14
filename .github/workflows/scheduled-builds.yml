@@ -1,7 +1,7 @@
-name: Trigger Site Rebuild on a CRON Scheduleon:
+name: Trigger Site Rebuild on a CRON Scheduleon
 
-  schedule:
-    # Runs "at minute 55 past every hour" (see https://crontab.guru)
+on:
+ schedule:	
     - cron: '* * * * *'
 
 jobs:
