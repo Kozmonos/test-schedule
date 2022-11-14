@@ -9,7 +9,6 @@ jobs:
     name: Trigger Site Rebuild
     runs-on: ubuntu-latest
     steps:
-	- npm i
       - name: cURL request
         # Hit the webhook endpoint to rebuild  from the "main" branch
         run: node index.js
